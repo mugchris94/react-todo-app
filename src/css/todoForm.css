@@ -1,0 +1,11 @@
+
+
+form{
+    padding: 2px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+    
+}

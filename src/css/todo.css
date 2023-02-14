@@ -1,0 +1,22 @@
+.todo-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    background-color:#22303c;
+    width: 380px;
+    margin: 15px auto;
+    color:aliceblue;
+    border-radius: 6px;
+    
+}
+.todo-row > div{
+    padding:13px;
+    font-family: 'Candal', sans-serif;
+    font-size: 21px;
+}
+
+.icons{
+    padding: 0px;
+}
