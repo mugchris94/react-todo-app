@@ -5,7 +5,7 @@
     justify-content:center;
     align-items: center;
     background-color:#22303c;
-    width: 380px;
+    width: 460px;
     margin: 15px auto;
     color:aliceblue;
     border-radius: 6px;
@@ -14,9 +14,13 @@
 .todo-row > div{
     padding:13px;
     font-family: 'Candal', sans-serif;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .icons{
     padding: 0px;
-}
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    }

@@ -1,6 +1,6 @@
 
 
-form{
+div.todo-form{
     padding: 2px;
     margin: 15px;
     display: flex;
@@ -8,4 +8,27 @@ form{
     justify-items: center;
     flex-direction: row;
     
+}
+
+.todo-form > input{
+    width: 350px;
+    height: 42px;
+    border-style: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin:0px 5px;
+    padding-left:13px;
+    font-family: monospace;
+
+
+}
+
+.todo-form > button{
+    width: 100px;
+    height: 44px;
+    padding:5px;
+    border-radius: 6px;
+    border-style:none;
+    border: .6px solid grey;
+    font-family: 'Candal', sans-serif;
 }
