@@ -14,6 +14,14 @@ const TodoList = () => {
         setTodos(newTodos)
         
     }
+
+    const removeTodo = id =>{
+        const removeArr= [...todos].filter(todo => todo.id !== id)
+
+        setTodos(removeArr)
+    }
+
+
     const completeTodo = id =>{
         let updatedTodos = todos.map(todo => {
             if(todo.id === id){
@@ -33,6 +41,7 @@ const TodoList = () => {
             <Todo 
             todos = {todos}
             completeTodo = {completeTodo}
+            remoteTodo = {removeTodo}
             />
         </div>
      );
